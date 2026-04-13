@@ -6,7 +6,6 @@ export default function Portfolio() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
   const [loaded, setLoaded] = useState(false);
-  // const [cursorTrail, setCursorTrail] = useState([]);
   const heroRef = useRef(null);
 
   useEffect(() => {
